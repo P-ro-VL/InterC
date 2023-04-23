@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="InterC.exe" version="1.0.0.1" publicKeyToken="182a25180b962b97" language="vi-VN" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="interc.ico" asmv2:publisher="HP" asmv2:product="InterC" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <co.v1:useManifestForTrust xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="16856">
+      <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v2du92C1JnCusQyL1dUhYVVq62WQWV9vMrIshpV4h2A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="InterC.deps.json" size="988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>U0KXw4ODlE6BBA7BZ2M613Vp8nDfeNS8Dgc42glkPZ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="InterC.dll" size="996312">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>QIPuX4faiV4J7qEqFa9BXrfCtuSMA0CyDETJXQd0p60=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="InterC.exe" size="222168">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d/1HouHf/1afDi43sVer3S2sZ4GBjD7jnJSp8pm4KmE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="interc.ico" size="67646">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DFs5dKHGRhv5l9d9f48r2cyRmj8E9s69nVKmZQJh9Ws=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="InterC.runtimeconfig.json" size="372">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DSp4MGmJyWjNc/SmtGLu8DcWOcu4eQJIAo4Sy6A1RFo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="YamlDotNet.dll" size="265728">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pLRRmqKAOSfppdk6IKIAZlqUAqxRi0Gc2CHj8Vi0CeM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=PHONGPHONG28\FPTSHOP" issuerKeyHash="04fbb5f1729fd62d419e4405f2469c8697eef317" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>eGCqGdJ1RP9gZHMrvXp8b6gFvHGemoVse8qSovpuIqU=</DigestValue></Reference></SignedInfo><SignatureValue>mUi1ea2sHBEOrsIc0XK1Mlf/VCBRih9KwLNngMU6IATftn8AG0+MB7eO4i9bkZlgDMFUXl0ZcxB7SQHssbddflt0JxCXxImyE/rbpsKxBfMXuY8ckq7U4xLu8wAs4cHKd+UM49sc+LNsQbpWmijwaAwaACSan9Bv3F0l2dvkfYs=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>u+SGlp3B38AS139uEPE8PzVwwNFivzqxgyzxZ27HpYU7tgfUuH+9k7KxhzKlyMZET3z5mtRo8b7q28qS+Or4CUSsZy9/fAbIb+lbLuKV6FMxoMQRXKfV1s4ymc6it/sDL4A0YhumG9z1n9KSnDBuWseNlJf0ZgQwBJ0/3v3QpkU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5226efaa292ca7b6c859a9e71bc05a86f7c7abd2b736460ff4475d219aa6078" Description="" Url=""><as:assemblyIdentity name="InterC.exe" version="1.0.0.1" publicKeyToken="182a25180b962b97" language="vi-VN" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=PHONGPHONG28\FPTSHOP</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>62u969p9Ln4I/Ant/SasdOuTcynsIckTvfHkGHpNKVI=</DigestValue></Reference></SignedInfo><SignatureValue>pgvYQ9pTEJGQ2ZWCTsy8twQKdE8EGiY0/05+4K7rWM7fM80XXT6toYS3iuB6cinBVl/MVRKTCUR9PoY3B9ixKIeW61CpyEIzzrH0ulHbV9g2LWWZRER165EsTA2th6gF7ZmaRJwquACpzV44ytFMJ2CW3Uv3FLko/z0iw2xXRr4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>u+SGlp3B38AS139uEPE8PzVwwNFivzqxgyzxZ27HpYU7tgfUuH+9k7KxhzKlyMZET3z5mtRo8b7q28qS+Or4CUSsZy9/fAbIb+lbLuKV6FMxoMQRXKfV1s4ymc6it/sDL4A0YhumG9z1n9KSnDBuWseNlJf0ZgQwBJ0/3v3QpkU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQF7UA6z0cVZlCVNxArIRmHDANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAUABIAE8ATgBHAFAASABPAE4ARwAyADgAXABGAFAAVABTAEgATwBQMB4XDTIzMDQyMzIyMDEyN1oXDTI0MDQyMzA0MDEyN1owMzExMC8GA1UEAx4oAFAASABPAE4ARwBQAEgATwBOAEcAMgA4AFwARgBQAFQAUwBIAE8AUDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAu+SGlp3B38AS139uEPE8PzVwwNFivzqxgyzxZ27HpYU7tgfUuH+9k7KxhzKlyMZET3z5mtRo8b7q28qS+Or4CUSsZy9/fAbIb+lbLuKV6FMxoMQRXKfV1s4ymc6it/sDL4A0YhumG9z1n9KSnDBuWseNlJf0ZgQwBJ0/3v3QpkUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQATKs+swiEMsk4g1VyXFHRaf2umLK3+traBVl9HckP7ZB9o1TlTEC1RYeFjN0GQafBA+drzh5CwzP5qg/ZCBENmMnpEJXXHLvHVCu1vkOs8kh5vSb/ML1z6ekRhaUov3B5w0XcOQCXM283YgDiqtc7swvD6ZNb2d5p2LF4ZuB5ECA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
