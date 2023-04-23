@@ -4,15 +4,20 @@ Difficulty: 3
 Subject: 'Cơ sở lập trình'
 TimeLimit: 1.0
 Description:
-  - 'Test'
-  - 'Test2'
+  - 'Cho tam giác ABC và một điểm M không nằm trên cạnh của tam giác.
+  Hãy viết chương trình tính số lớn nhất R sao cho vòng tròn tâm M, bán kính R, không cắt bất cứ cạnh nào và không chứa tam giác.'
 Input:
-  - 'Nhap vao mot so nguyen tu A - B'
+  - 'Dòng đầu tiên là một số nguyên t (1 <= t <= 20) - số test'
+  - '4 dòng tiếp theo mỗi dòng gồm 2 số thực x y (-100 <= x, y <= 100) lần lượt là tọa độ của các điểm A, B, C, M'
 Output:
-  - 'In ra ban kinh R lon nhat'
+  - 'Số thực R lớn nhất thỏa mãn đề bài'
 ExampleTest:
-  Input: '4 2'
-  Output: '3'
+  Input: '2
+  1 0
+  3 4
+  -2.5 -1
+  -0.5 2'
+  Output: '3.0687'
 Tests:
   test1:
     Input: '4 2'
