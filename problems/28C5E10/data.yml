@@ -1,0 +1,43 @@
+ID: '28C5E10'
+Name: 'Tiền lương và tiền thưởng'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Tuấn Anh đi làm phục vụ cho một quán cà phê ven hồ. Biết rằng một tuần Tuấn Anh phải làm h giờ và lương của một giờ làm là s nghìn đồng'
+  - 'Để hỗ trợ sinh viên, quán cà phê này có chính sách rằng: Nếu số giờ làm lớn hơn 40 giờ thì những giờ làm dôi ra sẽ được tính lương gấp 1.5 lần'
+  - 'Hãy giúp Tuấn Anh tính số tiền lương mà bạn ấy sẽ nhận được nhé.'
+Input:
+  - 'Một dòng gồm 2 số nguyên h và s. Mỗi số cách nhau một dấu cách.'
+Output:
+  - 'Một số nguyên duy nhất là tổng tiền lương bạn Tuấn Anh nhận được (đơn vị: nghìn đồng)'
+ExampleTest:
+  Input:
+    - '49 18'
+  Output:
+    - '963'
+Note:
+  - 'Tiền lương 40 tiếng làm việc của bạn là: 40 x 18 = 720'
+  - 'Bạn làm dôi ra thêm 9 tiếng nên tiền lương nhận thêm là: 9 x 18 x 1.5 = 243'
+  - 'Vậy tổng cộng bạn Tuấn Anh nhận được 963 nghìn đồng.'
+Tests:
+  test1:
+    Input:
+      - '22 30'
+    Output:
+      - '660'
+  test2:
+    Input:
+      - '40 76'
+    Output:
+      - '3040'
+  test3:
+    Input:
+      - '120 10'
+    Output:
+      - '1600'
+  test4:
+    Input:
+      - '0 45'
+    Output:
+      - '0'

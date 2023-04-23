@@ -1,0 +1,57 @@
+ID: '28C5E7'
+Name: 'Kéo búa bao ba người'
+Difficulty: 5
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Lan, Hoàng và Minh cùng chơi trò oẳn tù tì. Biết rằng:'
+  - '- Búa (B) thắng Kéo, thua Giấy'
+  - '- Kéo (K) thắng Giấy, thua Búa'
+  - '- Giấy (G) thắng Búa, thua Kéo'
+  - 'Biết rằng ba bạn cùng lúc ra búa, kéo hoặc giấy. Hỏi ai là người thắng cuộc?'
+Input:
+  - 'Ba chữ cái đại diện cho các nước đi lần lượt của Lan, Hoàng và Minh'
+  - 'Mỗi chữ cái cách nhau một dấu cách'
+Output:
+  - 'In ra người thắng cuộc. Nếu có hai người cùng thắng thì in ra tên cả hai.'
+  - 'Nếu không có ai thắng cuộc thì in ra chữ DRAW'
+ExampleTest:
+  Input:
+    - 'B B K'
+  Output:
+    - 'Lan'
+    - 'Hoang'
+Note:
+  - 'Ở đây Lan và Hoàng ra búa, thắng kéo của Minh, do đó có hai người chiến thắng'
+Tests:
+  test1:
+    Input:
+      - 'B G K'
+    Output:
+      - 'DRAW'
+  test2:
+    Input:
+      - 'B B B'
+    Output:
+      - 'DRAW'
+  test3:
+    Input:
+      - 'B B G'
+    Output:
+      - 'Minh'
+  test4:
+    Input:
+      - 'B G G'
+    Output:
+      - 'Hoang'
+      - 'Minh'
+  test5:
+    Input:
+      - 'B K G'
+    Output:
+      - 'DRAW'
+  test6:
+    Input:
+      - 'B K K'
+    Output:
+      - 'Lan'

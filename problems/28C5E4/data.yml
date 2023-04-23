@@ -1,0 +1,70 @@
+ID: '28C5E4'
+Name: 'Kiểm tra số nguyên tố'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho số nguyên dương n (2 <= n <= 1000). Kiểm tra xem số n có phải một số nguyên tố không?'
+Input:
+  - 'Số nguyên dương n'
+Output:
+  - 'Nếu n là số nguyên tố, in ra chữ YES'
+  - 'Nếu n không phải số nguyên tố, in ra chữ NO'
+ExampleTest:
+  Input:
+    - '13'
+  Output:
+    - 'YES'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - '12'
+    Output:
+      - '2 3 6 7 14 21 42'
+  test2:
+    Input:
+      - '34'
+    Output:
+      - 'NO'
+  test3:
+    Input:
+      - '25'
+    Output:
+      - 'NO'
+  test4:
+    Input:
+      - '96'
+    Output:
+      - 'NO'
+  test5:
+    Input:
+      - '113'
+    Output:
+      - 'YES'
+  test6:
+    Input:
+      - '289'
+    Output:
+      - 'YES'
+  test7:
+    Input:
+      - '133'
+    Output:
+      - 'NO'
+  test8:
+    Input:
+      - '774'
+    Output:
+      - 'NO'
+  test9:
+    Input:
+      - '469'
+    Output:
+      - 'NO'
+  test10:
+    Input:
+      - '1000'
+    Output:
+      - 'NO'

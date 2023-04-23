@@ -1,0 +1,44 @@
+ID: '28C5E5'
+Name: 'Ngày trong năm'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một ngày tháng năm bất kì. Hãy cho biết ngày đó là ngày thứ bao nhiêu trong năm'
+Input:
+  - 'Ba số nguyên d m y lần lượt là ngày tháng năm'
+Output:
+  - 'Một số nguyên duy nhất biểu thị yêu cầu đề bài'
+ExampleTest:
+  Input:
+    - '15 03 2023'
+  Output:
+    - '74'
+Note:
+  - 'Ngày 15/03/2023 là ngày thứ 31 + 28 + 15 = 74 trong năm'
+Tests:
+  test1:
+    Input:
+      - '14 02 2019'
+    Output:
+      - '45'
+  test2:
+    Input:
+      - '16 07 1996'
+    Output:
+      - '198'
+  test3:
+    Input:
+      - '01 01 2005'
+    Output:
+      - '1'
+  test4:
+    Input:
+      - '31 12 2014'
+    Output:
+      - '365'
+  test5:
+    Input:
+      - '29 08 2045'
+    Output:
+      - '241'

@@ -1,0 +1,69 @@
+ID: '28C5E1'
+Name: 'Tổng từ 1 đến n'
+Difficulty: 1
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một số nguyên n bất kỳ, hãy tính tổng dãy số 1 + 2 + ... + n'
+Input:
+  - 'Số nguyên n'
+Output:
+  - 'Tổng các số từ 1 đến n'
+ExampleTest:
+  Input:
+    - '9'
+  Output:
+    - '45'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - '7'
+    Output:
+      - '28'
+  test2:
+    Input:
+      - '15'
+    Output:
+      - '120'
+  test3:
+    Input:
+      - '77'
+    Output:
+      - '3003'
+  test4:
+    Input:
+      - '215'
+    Output:
+      - '23220'
+  test5:
+    Input:
+      - '999'
+    Output:
+      - '499500'
+  test6:
+    Input:
+      - '402'
+    Output:
+      - '81003'
+  test7:
+    Input:
+      - '30'
+    Output:
+      - '465'
+  test8:
+    Input:
+      - '10000'
+    Output:
+      - '50005000'
+  test9:
+    Input:
+      - '9999'
+    Output:
+      - '49995000'
+  test10:
+    Input:
+      - '1000000'
+    Output:
+      - '1784293664'

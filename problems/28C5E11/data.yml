@@ -1,0 +1,44 @@
+ID: '28C5E11'
+Name: 'Tính tiền điện'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Trong cuộc họp thường kì gần nhất, công ty Cổ phần Điện lực Việt Nam đã họp bàn kế hoạch thu tiền điện cho giai đoạn mới'
+  - 'Biết rằng tiền điện sẽ tính dựa vào số điện chênh lệch giữa tháng mới và tháng cũ. Và:'
+  - '- 50KW đầu tiên tính giá 1500đ/KW'
+  - '- 50KW tiếp theo tính giá 2300đ/KW'
+  - '- Các KW còn lại tính giá 3500đ/KW'
+  - 'Giả sử tháng trước nhà bạn dùng hết e1 số điện, tháng này dùng hết e2 số điện (e2 > e1). Hãy thử tính xem gia đình bạn phải trả bao nhiêu tiền điện?'
+Input:
+  - 'Một dòng gồm 2 số nguyên e1 và e2. Mỗi số cách nhau một dấu cách.'
+Output:
+  - 'Một số nguyên duy nhất là tổng tiền điện gia đình bạn phải trả (đơn vị: đồng)'
+ExampleTest:
+  Input:
+    - '20 35'
+  Output:
+    - '22500'
+Note:
+  - 'Không có giải thích gì thêm'
+Tests:
+  test1:
+    Input:
+      - '22 30'
+    Output:
+      - '12000'
+  test2:
+    Input:
+      - '40 225'
+    Output:
+      - '487500'
+  test3:
+    Input:
+      - '113 423'
+    Output:
+      - '925000'
+  test4:
+    Input:
+      - '0 986'
+    Output:
+      - '3291000'

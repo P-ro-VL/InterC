@@ -1,0 +1,44 @@
+ID: '28C5E3'
+Name: 'Quý trong năm'
+Difficulty: 1
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Nhập vào một tháng m (1 <= m <= 12). Cho biết m thuộc quý mấy trong năm'
+Input:
+  - 'Số nguyên m'
+Output:
+  - 'Quý mà tháng đó thuộc về, in dưới dạng số.'
+ExampleTest:
+  Input:
+    - '3'
+  Output:
+    - '1'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - '7'
+    Output:
+      - '3'
+  test2:
+    Input:
+      - '2'
+    Output:
+      - '1'
+  test3:
+    Input:
+      - '11'
+    Output:
+      - '4'
+  test4:
+    Input:
+      - '6'
+    Output:
+      - '2'
+  test5:
+    Input:
+      - '12'
+    Output:
+      - '4'

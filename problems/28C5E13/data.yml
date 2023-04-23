@@ -1,0 +1,56 @@
+ID: '28C5E13'
+Name: 'Dãy Fibonacii'
+Difficulty: 4
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Dãy Fibonacii là dãy mà số này bằng tổng của hai số đứng liền kề trước nó.'
+  - 'VD: 1 1 2 3 5 8 ...'
+  - 'Hãy chỉ ra số thứ n trong dãy fibonacii trên?'
+Input:
+  - 'Số nguyên n (3 <= n <= 10^6)'
+Output:
+  - 'Số thứ n trong dãy Fibonacii'
+ExampleTest:
+  Input:
+    - '6'
+  Output:
+    - '8'
+Note:
+  - 'Không có giải thích gì thêm'
+Tests:
+  test1:
+    Input:
+      - '14'
+    Output:
+      - '377'
+  test2:
+    Input:
+      - '28'
+    Output:
+      - '317811'
+  test3:
+    Input:
+      - '55'
+    Output:
+      - '139583862445'
+  test4:
+    Input:
+      - '103'
+    Output:
+      - '6334266236422402381'
+  test5:
+    Input:
+      - '123'
+    Output:
+      - '5957444661174968386'
+  test6:
+    Input:
+      - '722'
+    Output:
+      - '1597616578552254625'
+  test7:
+    Input:
+      - '9999'
+    Output:
+      - '2788724563990792802'

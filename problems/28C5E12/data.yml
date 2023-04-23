@@ -1,0 +1,39 @@
+ID: '28C5E12'
+Name: 'ƯCLN và BCNN'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho hai số nguyên dương a và b. Hãy tìm ước chung lớn nhất và bội chung nhỏ nhất của hai số này.'
+Input:
+  - 'Hai số nguyên a và b. Cách nhau bởi một dấu cách.'
+Output:
+  - 'UCLN và BCNN của hai số đó. Cách nhau bởi một dấu cách.'
+ExampleTest:
+  Input:
+    - '3 6'
+  Output:
+    - '3 6'
+Note:
+  - 'Không có giải thích gì thêm'
+Tests:
+  test1:
+    Input:
+      - '14 77'
+    Output:
+      - '7 154'
+  test2:
+    Input:
+      - '5 40'
+    Output:
+      - '5 40'
+  test3:
+    Input:
+      - '11 121'
+    Output:
+      - '11 121'
+  test4:
+    Input:
+      - '1 9'
+    Output:
+      - '1 9'

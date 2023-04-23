@@ -1,0 +1,48 @@
+ID: '28C5E9'
+Name: 'Điểm số học đều'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Bạn Khánh mới hoàn thành kì thi cuối kì với điểm số ba môn Toán Lý Hóa lần lượt là t, l, h'
+  - 'Tính xem bạn Khánh học hành có tốt hay không, biết rằng:'
+  - '+ Nếu tổng điểm >= 15 và không có môn nào dưới 4 thì kết quả là ĐẠT, ngược lại là KHÔNG ĐẠT'
+  - '+ Nếu ĐẠT mà các môn đều lớn hơn 7 thì bạn Khánh HỌC ĐỀU CÁC MÔN, ngược lại là HỌC CHƯA ĐỀU'
+Input:
+  - 'Một dòng gồm 3 số nguyên t, l, h; mỗi số cách nhau một dấu cách'
+Output:
+  - 'In ra ĐẠT nếu bạn Khánh đạt tiêu chuẩn ngược lại in KHÔNG ĐẠT'
+  - 'In ra HỌC ĐỀU CÁC MÔN nếu bạn Khánh thỏa mãn điều kiện học đều, ngược lại in ra HỌC CHƯA ĐỀU'
+ExampleTest:
+  Input:
+    - '7 6 8'
+  Output:
+    - 'ĐẠT'
+    - 'HỌC CHƯA ĐỀU'
+Note:
+  - 'Tổng điểm của bạn Khánh lúc này là 7 + 6 + 8 = 21 => Đạt.'
+  - 'Nhưng môn Lý của bạn chỉ được 6 điểm nên bạn HỌC CHƯA ĐỀU'
+Tests:
+  test1:
+    Input:
+      - '2 6 1'
+    Output:
+      - 'KHÔNG ĐẠT'
+  test2:
+    Input:
+      - '7 7 8'
+    Output:
+      - 'ĐẠT'
+      - 'HỌC ĐỀU CÁC MÔN'
+  test3:
+    Input:
+      - '9 2 6'
+    Output:
+      - 'ĐẠT'
+      - 'HỌC CHƯA ĐỀU'
+  test4:
+    Input:
+      - '8 7 0'
+    Output:
+      - 'ĐẠT'
+      - 'HỌC CHƯA ĐỀU'
