@@ -1,6 +1,8 @@
 ID: 'CNTT1128W51'
 Name: 'Bán kính lớn nhất'
 Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
 Description:
   - 'Test'
   - 'Test2'
