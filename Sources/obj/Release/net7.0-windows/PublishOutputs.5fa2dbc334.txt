@@ -1,0 +1,6 @@
+D:\InterC\InterC\bin\Release\net7.0-windows\app.publish\InterC.exe
+D:\InterC\InterC\bin\Release\net7.0-windows\app.publish\InterC.dll
+D:\InterC\InterC\bin\Release\net7.0-windows\app.publish\InterC.deps.json
+D:\InterC\InterC\bin\Release\net7.0-windows\app.publish\InterC.runtimeconfig.json
+D:\InterC\InterC\bin\Release\net7.0-windows\app.publish\InterC.pdb
+D:\InterC\InterC\bin\Release\net7.0-windows\app.publish\YamlDotNet.dll

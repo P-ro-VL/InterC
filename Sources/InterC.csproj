@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>interc.ico</ApplicationIcon>
+    <Title>InterC</Title>
+    <Copyright>P-ro-VL</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\login_screen.mp4" />
+    <None Remove="src\main_ui.png" />
+    <None Remove="src\submit_code_bgr.png" />
+    <None Remove="src\submit_code_btn.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="interc.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="13.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="src\login_screen.mp4">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="src\main_ui.png" />
+    <Resource Include="src\submit_code_bgr.png" />
+    <Resource Include="src\submit_code_btn.png" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "E97Gd2EpTOIRu7jt9Pv/+85O5WYaqT3qMbBwti2P72NW/p1RFUbGkmwwOw8S79lcrsCElFNXui9ODd1dtJZqhg==",
+  "success": true,
+  "projectFilePath": "D:\\InterC\\InterC\\InterC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\yamldotnet\\13.1.0\\yamldotnet.13.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
