@@ -6,5 +6,14 @@ TimeLimit: 1.0
 Description:
   - 'Test'
   - 'Test2'
+Input:
+  - 'Nhap vao mot so nguyen tu A - B'
+Output:
+  - 'In ra ban kinh R lon nhat'
+ExampleTest:
+  Input: '4 2'
+  Output: '3'
 Tests:
-  - '4 2'
+  test1:
+    Input: '4 2'
+    Output: '3'
