@@ -12,13 +12,24 @@ Input:
 Output:
   - 'Số thực R lớn nhất thỏa mãn đề bài'
 ExampleTest:
-  Input: '2
-  1 0
-  3 4
-  -2.5 -1
-  -0.5 2'
-  Output: '3.0687'
+  Input: 
+  - '2'
+  - '1 0'
+  - '3 4'
+  - '-2.5 -1'
+  - '-0.5 2'
+  - '4 -7'
+  - '3 5'
+  - '0 1'
+  - '0 0'
+  Output: 
+  - '3.0687'
+  - '0.6212'
+Note:
+- 'Không có giải thích gì thêm.'
 Tests:
   test1:
-    Input: '4 2'
-    Output: '3'
+    Input: 
+    - '4 2'
+    Output: 
+    - '3'
