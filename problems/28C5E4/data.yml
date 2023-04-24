@@ -22,7 +22,7 @@ Tests:
     Input:
       - '12'
     Output:
-      - '2 3 6 7 14 21 42'
+      - 'NO'
   test2:
     Input:
       - '34'
@@ -47,7 +47,7 @@ Tests:
     Input:
       - '289'
     Output:
-      - 'YES'
+      - 'NO'
   test7:
     Input:
       - '133'
