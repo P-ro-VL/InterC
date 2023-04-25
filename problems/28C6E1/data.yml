@@ -1,0 +1,57 @@
+ID: '28C6E1'
+Name: 'Vị trí tương đối của M'
+Difficulty: 5
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một tam giác với ba đỉnh A, B, C lần lượt có tọa độ (xa; ya), (xb; yb), (xc; yc).'
+  - 'Biết rằng có điểm M với tọa độ (xm, ym). Kiểm tra vị trí tương đối của điểm M so với tam giác ABC ?'
+Input:
+  - '4 dòng, mỗi dòng gồm hai số thực x y lần lượt là tọa độ của điểm A, B, C, M'
+Output:
+  - 'In ra NAM TRONG nếu M nằm trong tam giác ABC'
+  - 'In ra NAM NGOAI nếu M nằm ngoài tam giác ABC'
+  - 'In ra NAM TREN nếu M nằm trên một cạnh của tam giác ABC'
+ExampleTest:
+  Input:
+    - '2 3'
+    - '4 7'
+    - '-1 0'
+    - '5 5'
+  Output:
+    - 'NAM NGOAI'
+Note:
+  - 'Không có giải thích gì thêm'
+Tests:
+  test1:
+    Input:
+      - '0 2'
+      - '0 0'
+      - '1 0'
+      - '1 0.5'
+    Output:
+      - 'NAM TREN'
+  test2:
+    Input:
+      - '0 -0.5'
+      - '0 -1.5'
+      - '1.5 0'
+      - '1.5 1.7'
+    Output:
+      - 'NAM NGOAI'
+  test3:
+    Input:
+      - '0 3'
+      - '1.5 0'
+      - '-2.5 -1'
+      - '-0.5 0.5'
+    Output:
+      - 'NAM TRONG'
+  test4:
+    Input:
+      - '0 2'
+      - '2 0'
+      - '0 0'
+      - '0 0'
+    Output:
+      - 'NAM TREN'
