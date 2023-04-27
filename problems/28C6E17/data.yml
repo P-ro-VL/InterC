@@ -1,0 +1,49 @@
+ID: '28C6E17'
+Name: 'Tổng các chữ số'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một số nguyên dương n (1 <= n <= 10^12). Tính tổng các chữ số của n.'
+Input:
+  - 'Một số nguyên dương n duy nhất'
+Output:
+  - 'Tổng các chữ số của n'
+ExampleTest:
+  Input:
+    - '123'
+  Output:
+    - '6'
+Note:
+  - 'Không có giải thích gì thêm'
+Tests:
+  test0:
+    Input:
+      - '123'
+    Output:
+      - '6'
+  test1:
+    Input:
+      - '535'
+    Output:
+      - '13'
+  test2:
+    Input:
+      - '23421'
+    Output:
+      - '12'
+  test3:
+    Input:
+      - '6494563'
+    Output:
+      - '37'
+  test4:
+    Input:
+      - '754634452'
+    Output:
+      - '40'
+  test5:
+    Input:
+      - '99999999999'
+    Output:
+      - '99'

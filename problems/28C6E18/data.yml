@@ -1,0 +1,34 @@
+ID: '28C6E18'
+Name: 'Tổ hợp chập k của n'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho hai số nguyên dương n và k (1 <= n, k <= 50; n > k). Tính tổ hợp chập k của n (nCk)'
+Input:
+  - 'Lần lượt là hai số n và k, mỗi số cách nhau bởi một dấu cách'
+Output:
+  - 'Số nguyên dương biểu thị tổ hợp chập k của n'
+ExampleTest:
+  Input:
+    - '3 2'
+  Output:
+    - '6'
+Note:
+  - 'Không có giải thích gì thêm'
+Tests:
+  test0:
+    Input:
+      - '22 14'
+    Output:
+      - '4892'
+  test1:
+    Input:
+      - '13 9'
+    Output:
+      - '715'
+  test2:
+    Input:
+      - '12 7'
+    Output:
+      - '792'

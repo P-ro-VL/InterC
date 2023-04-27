@@ -4,7 +4,7 @@ Difficulty: 6
 Subject: 'Cơ sở lập trình'
 TimeLimit: 1.0
 Description:
-  - 'Có một mảnh đất có diện tích mxn (2 <= m, n <= 1000) được chia thành các ô vuông đều nhau giống như một bàn cờ, mỗi ô có đơn vị đúng bằng 1.'
+  - 'Có một mảnh đất có diện tích mxn (2 <= m, n <= 1000) được chia thành các ô vuông đều nhau giống như một bàn cờ, mỗi ô có đơn vị đúng bằng 1. Các ô được đánh số theo chiều dài từ 0 đến m - 1 và theo chiều rộng là từ 0 đến n - 1.'
   - 'Mảnh đất này được sử dụng cho quân đội tập né mìn. Người chỉ huy có thể chôn t (0 <= t <= m.n) quả mìn ở t ô bất kỳ trên mảnh đất. Biết rằng giả sử nếu ô đất có mìn ở tọa độ (x, y) phát nổ, mìn sẽ nổ tại ô đó và 4 ô (x+1, y), (x-1,y), (x,y+1), (x,y-1) xung quanh. Nếu trong 4 ô này có mìn thì vụ nổ sẽ được nối tiếp.'
   - 'Hãy tính xem sau khi hoàn tất chuỗi nổ, có bao nhiêu ô bị nổ trên mảnh đất đó?'
 Input:

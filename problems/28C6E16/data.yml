@@ -1,0 +1,41 @@
+ID: '28C6E16'
+Name: 'Giai thừa cách'
+Difficulty: 13
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một số nguyên dương n (1 <= n <= 100). Tính giai thừa cách của số n theo yêu cầu sau:'
+  - '- Nếu n chẵn, chỉ tính giai thừa cách các số chẵn từ 2.4.6...n'
+  - '- Nếu n lẻ, chỉ tính giải thừa cách các số lẻ từ 1.3.5...n'
+Input:
+  - 'Một số nguyên dương n duy nhất (1 <= n <= 100)'
+Output:
+  - 'Một số nguyên thể hiện kết quả tích giai thừa cách dựa trên tính chẵn lẻ của số đó.'
+ExampleTest:
+  Input:
+    - '5'
+  Output:
+    - '15'
+Note:
+  - 'Vì n=5 là số lẻ nên giai thừa cách cần tính là 1.3.5 = 15'
+Tests:
+  test0:
+    Input:
+      - '9'
+    Output:
+      - '945'
+  test1:
+    Input:
+      - '12'
+    Output:
+      - '46080'
+  test2:
+    Input:
+      - '33'
+    Output:
+      - '6332659870762850625'
+  test3:
+    Input:
+      - '50'
+    Output:
+      - '2375508065949581312'
