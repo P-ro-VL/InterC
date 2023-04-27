@@ -1,0 +1,51 @@
+ID: '28C6E7'
+Name: 'Xâu ngày tháng'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một xâu s bất kỳ. Kiểm tra xem xâu này có phải xâu ngày tháng không?'
+  - 'Biết rằng xâu ngày tháng là xâu có dạng dd/MM/yyyy'
+  - 'Nếu xâu đó là xâu ngày tháng thì ngày tháng đó có hợp lệ không? (Ngày tháng không hợp lệ ví dụ: 30/02/2023)'
+Input:
+  - 'Xâu kí tự s'
+Output:
+  - '- Nếu xâu s là xâu ngày tháng thì in ra chữ LA NGAY THANG, nếu không thì in KHONG PHAI NGAY THANG'
+  - '- Nếu là ngày tháng và là ngày tháng hợp lệ, thì in ra HOP LE, nếu không thì in ra KHONG HOP LE'
+ExampleTest:
+  Input:
+    - '15/09/2023'
+  Output:
+    - 'LA NGAY THANG'
+    - 'HOP LE'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test0:
+    Input:
+      - '15/07/2004'
+    Output:
+      - 'LA NGAY THANG'
+      - 'HOP LE'
+  test1:
+    Input:
+      - '22/1/2022'
+    Output:
+      - 'KHONG PHAI NGAY THANG'
+  test2:
+    Input:
+      - '00/00/0000'
+    Output:
+      - 'LA NGAY THANG'
+      - 'KHONG HOP LE'
+  test3:
+    Input:
+      - '29/02/2004'
+    Output:
+      - 'LA NGAY THANG'
+      - 'HOP LE'
+  test4:
+    Input:
+      - 'qwerty'
+    Output:
+      - 'KHONG PHAI NGAY THANG'

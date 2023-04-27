@@ -1,0 +1,40 @@
+ID: '28C6E5'
+Name: 'Đếm số từ'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một xâu văn bản không quá 100 kí tự.'
+  - 'Hãy cho biết xâu trên có bao nhiêu từ? Biết rằng mỗi từ được hiểu là đoạn kí tự nằm giữa hai dấu trống và không phải là khoảng trống'
+Input:
+  - 'Xâu văn bản cần đếm số từ'
+Output:
+  - 'Số từ của xâu văn bản đó'
+ExampleTest:
+  Input:
+    - 'Mot cuon sach'
+  Output:
+    - '3'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - 'Tran Quoc Viet'
+    Output:
+      - '3'
+  test2:
+    Input:
+      - '  Toi  thich di   ca phe '
+    Output:
+      - '4'
+  test3:
+    Input:
+      - 'Doan   tau   nay   rat   dep'
+    Output:
+      - '5'
+  test4:
+    Input:
+      - '   BLACKPINK     la      nhom    nhac    so     1    the   gioi   '
+    Output:
+      - '8'

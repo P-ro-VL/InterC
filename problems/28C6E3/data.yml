@@ -1,0 +1,49 @@
+ID: '28C6E3'
+Name: 'Chuẩn hóa tên'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một chuỗi không quá 100 kí tự là tên của một người Việt Nam. Hãy viết chương trình chuẩn hóa chuỗi kí tự này.'
+  - 'Biết rằng một chuỗi kí tự được chuẩn hóa đều phải thỏa mãn các yêu cầu sau:'
+  - '+ Đầu và cuối không có dấu cách'
+  - '+ Giữa các từ chỉ có một dấu cách duy nhất'
+  - '+ Chữ cái đầu tiên của mỗi từ phải viết hoa'
+  - '+ Các chữ cái còn lại viết thường'
+Input:
+  - 'Chuỗi kí tự cần chuẩn hóa'
+Output:
+  - 'Tên sau khi đã chuẩn hóa xong'
+ExampleTest:
+  Input:
+    - '    Nguyen Thi  Huyen     '
+  Output:
+    - 'Nguyen Thi Huyen'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - '      Pham      Van     Linh      '
+    Output:
+      - 'Pham Van Linh'
+  test2:
+    Input:
+      - 'Nguyen         Thi       Huyen       '
+    Output:
+      - 'Nguyen Thi Huyen'
+  test3:
+    Input:
+      - '    hoang      qUOc     HUY         '
+    Output:
+      - 'Hoang Quoc Huy'
+  test4:
+    Input:
+      - '   NgUYEN gia baO'
+    Output:
+      - 'Nguyen Gia Bao'
+  test5:
+    Input:
+      - 'Tran Huyen Trang'
+    Output:
+      - 'Tran Huyen Trang'

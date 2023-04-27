@@ -1,0 +1,47 @@
+ID: '28C6E10'
+Name: 'N ngày trước đó'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho xâu kí tự ngày tháng s có dạng dd/MM/yyyy và một số nguyên dương n (1 <= n <= 10^6).'
+  - 'Tính ngày thứ n trước ngày s.'
+Input:
+  - 'Gồm 2 dòng:'
+  - '- Dòng thứ nhất là một xâu kí tự ngày tháng s dạng dd/MM/yyyy'
+  - '- Dòng thứ hai là một số nguyên dương n (1 <= n <= 10^6)'
+Output:
+  - 'Xâu dạng dd/MM/yyyy là ngày thứ n trước ngày s'
+ExampleTest:
+  Input:
+    - '15/09/2023'
+    - '28'
+  Output:
+    - '18/08/2023'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test0:
+    Input:
+      - '15/07/2004'
+      - '78'
+    Output:
+      - '28/04/2004'
+  test1:
+    Input:
+      - '22/10/2022'
+      - '105'
+    Output:
+      - '04/02/2023'
+  test2:
+    Input:
+      - '31/01/2004'
+      - '2466'
+    Output:
+      - '06/05/1997'
+  test3:
+    Input:
+      - '27/06/4726'
+      - '1000000'
+    Output:
+      - '05/10/1986'

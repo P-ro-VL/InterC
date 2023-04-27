@@ -1,0 +1,45 @@
+ID: '28C6E8'
+Name: 'Khoảng cách ngày'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho hai xâu kí tự ngày tháng s1 và s2 (s1 và s2 đều có dạng dd/MM/yyyy)'
+  - 'Hãy tính khoảng cách từ ngày s1 đến ngày s2 (không kể ngày s2)'
+Input:
+  - 'Gồm 2 dòng, mỗi dòng là một xâu ngày tháng dạng dd/MM/yyyy'
+Output:
+  - 'Một số nguyên dương duy nhất biểu thị số ngày giữa ngày s1 và ngày s2 (không tính ngày s2)'
+ExampleTest:
+  Input:
+    - '15/09/2023'
+    - '20/09/2023'
+  Output:
+    - '5'
+Note:
+  - 'Từ ngày 15/09 đến ngày 20/09 gồm 5 ngày: 15, 16, 17, 18, 19'
+Tests:
+  test0:
+    Input:
+      - '15/07/2004'
+      - '02/08/2004'
+    Output:
+      - '18'
+  test1:
+    Input:
+      - '22/10/2022'
+      - '15/03/2023'
+    Output:
+      - '145'
+  test2:
+    Input:
+      - '31/01/2004'
+      - '19/03/2006'
+    Output:
+      - '778'
+  test3:
+    Input:
+      - '27/06/1994'
+      - '27/06/1994'
+    Output:
+      - '0'

@@ -1,0 +1,40 @@
+ID: '28C6E4'
+Name: 'Tách phần tên'
+Difficulty: 2
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho tên của một người Việt bất kỳ (Đã được chuẩn hóa sẵn, không quá 100 kí tự).'
+  - 'Hãy in ra phần tên của người này.'
+Input:
+  - 'Chuỗi kí tự là tên người Việt'
+Output:
+  - 'Phần tên của người đó'
+ExampleTest:
+  Input:
+    - 'Hoang Tuan Anh'
+  Output:
+    - 'Anh'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - 'Tran Quoc Viet'
+    Output:
+      - 'Viet'
+  test2:
+    Input:
+      - 'Nguyen Ngoc Minh Chau'
+    Output:
+      - 'Chau'
+  test3:
+    Input:
+      - 'Trinh Dinh Nguyen Vu'
+    Output:
+      - 'Vu'
+  test4:
+    Input:
+      - 'Vo Hoang Yen'
+    Output:
+      - 'Yen'

@@ -1,0 +1,59 @@
+ID: '28C6E13'
+Name: 'Tổng triệt trong khoảng'
+Difficulty: 7
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Tổng triệt của một số là tổng tất cả các chữ số của số đó nếu tổng này chỉ có một chữ số; nếu chưa phải là một chữ số thì tiếp tục cộng tất cả các chữ số của tổng đó để được tổng mới cho đến khi thu được một số có một chữ số.'
+  - 'Cho đoạn [m,n] (1000 <= m, n <= 9999). Hãy in ra màn hình số các số i (KHÔNG KỂ HOÁN VỊ của nó) nằm trong khoảng [m,n] có tổng triệt đúng bằng k (0 <= k <= 9)'
+Input:
+  - 'Gồm 2 dòng:'
+  - 'Dòng đầu tiên gồm 2 số nguyên dương m, n cách nhau một dấu cách'
+  - 'Dòng thứ hai gồm 1 số nguyên dương k duy nhất'
+Output:
+  - 'Số các số nguyên dương i nằm trong đoạn [m,n] có tổng triệt bằng k. Không kể hoán vị.'
+ExampleTest:
+  Input:
+    - '1000 1100'
+    - '2'
+  Output:
+    - '6'
+Note:
+  - 'Trong đoạn [1000, 1100] có các số sau có tổng triệt bằng 2 là: 1010, 1064, 1073, 1082, 1091, 1100'
+Tests:
+  test0:
+    Input:
+      - '2000 5000'
+      - '6'
+    Output:
+      - '278'
+  test1:
+    Input:
+      - '1258 5700'
+      - '8'
+    Output:
+      - '422'
+  test2:
+    Input:
+      - '1000 9999'
+      - '0'
+    Output:
+      - '0'
+  test3:
+    Input:
+      - '5555 5556'
+      - '0'
+    Output:
+      - '0'
+  test4:
+    Input:
+      - '1223 8374'
+      - '7'
+    Output:
+      - '716'
+  test5:
+    Input:
+      - '9999 9999'
+      - '0'
+    Output:
+      - '0'

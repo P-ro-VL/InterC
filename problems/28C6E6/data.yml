@@ -1,0 +1,59 @@
+ID: '28C6E6'
+Name: 'Cách đọc số'
+Difficulty: 5
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Cho một số nguyên dương n (0 <= n < 1000). Hãy cho biết cách đọc/cách phát âm của số này.'
+Input:
+  - 'Một số nguyên dương n duy nhất (0 <= n < 1000)'
+Output:
+  - 'Cách đọc/cách phát âm của số đó (không dấu)'
+ExampleTest:
+  Input:
+    - '235'
+  Output:
+    - 'hai tram ba muoi lam'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test1:
+    Input:
+      - '72'
+    Output:
+      - 'bay muoi hai'
+  test2:
+    Input:
+      - '131'
+    Output:
+      - 'mot tram ba muoi mot'
+  test3:
+    Input:
+      - '6'
+    Output:
+      - 'sau'
+  test4:
+    Input:
+      - '802'
+    Output:
+      - 'tam tram linh hai'
+  test5:
+    Input:
+      - '225'
+    Output:
+      - 'hai tram hai muoi lam'
+  test6:
+    Input:
+      - '800'
+    Output:
+      - 'tam tram'
+  test7:
+    Input:
+      - '10'
+    Output:
+      - 'muoi'
+  test8:
+    Input:
+      - '0'
+    Output:
+      - 'khong'

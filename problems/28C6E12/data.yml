@@ -1,0 +1,52 @@
+ID: '28C6E12'
+Name: 'Tổng triệt của một số'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Tổng triệt của một số là tổng tất cả các chữ số của số đó nếu tổng này chỉ có một chữ số; nếu chưa phải là một chữ số thì tiếp tục cộng tất cả các chữ số của tổng đó để được tổng mới cho đến khi thu được một số có một chữ số.'
+  - 'Cho một số nguyên dương n (1 <= n <= 10^12). Hãy tính tổng triệt của số n này.'
+Input:
+  - 'Một số nguyên dương n (1 <= n <= 10^12) duy nhất'
+Output:
+  - 'Tổng triệt của số đó'
+ExampleTest:
+  Input:
+    - '912'
+  Output:
+    - '3'
+Note:
+  - '- Tổng triệt lần đầu tiên của số này là: 9 + 1 + 2 = 12'
+  - '- Vì 12 có hai chữ số nên tiếp tục cộng: 1 + 2 = 3'
+  - 'Vậy tổng triệt của 912 là 3'
+Tests:
+  test0:
+    Input:
+      - '2131'
+    Output:
+      - '7'
+  test1:
+    Input:
+      - '1536542'
+    Output:
+      - '8'
+  test2:
+    Input:
+      - '7'
+    Output:
+      - '7'
+  test3:
+    Input:
+      - '100000023123'
+    Output:
+      - '1'
+  test4:
+    Input:
+      - '235465734642234'
+    Output:
+      - '6'
+  test5:
+    Input:
+      - '23456789876543458'
+    Output:
+      - '4'

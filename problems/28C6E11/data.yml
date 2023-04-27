@@ -1,0 +1,54 @@
+ID: '28C6E11'
+Name: 'Can chi'
+Difficulty: 3
+Subject: 'Cơ sở lập trình'
+TimeLimit: 1.0
+Description:
+  - 'Từ ngàn xưa, các nước thuộc nền văn minh Á Đông chịu ảnh hưởng bởi nền văn hóa Trung Hoa đã sử dụng can và chi để đặt tên cho năm trước khi năm dương lịch du nhập vào.'
+  - 'Cha ông cho rằng có:'
+  - '- 10 can, lần lượt là: Giáp - Ất - Bính - Đinh - Mậu - Kỷ - Canh - Tân - Nhâm - Quý'
+  - '- 12 chi, lần lượt là: Tý - Sửu - Dần - Mão - Thìn - Tỵ - Ngọ - Mùi - Thân - Dậu - Tuất - Hợi'
+  - 'Bạn Lan có bài tập về nhà nghiên cứu về cách đọc can chi của một năm n nguyên dương (1 <= n <= 10^6) cho trước. Hãy giúp bạn Lan tìm ra tên can chi của năm n đó.'
+Input:
+  - 'Một số nguyên dương n (1 <= n <= 10^6) duy nhất thể hiện năm cần tìm tên can chi'
+Output:
+  - 'Tên can chi của năm đó (Không dấu)'
+ExampleTest:
+  Input:
+    - '2023'
+  Output:
+    - 'Quy Mao'
+Note:
+  - 'Không có giải thích gì thêm.'
+Tests:
+  test0:
+    Input:
+      - '2004'
+    Output:
+      - 'Giap Than'
+  test1:
+    Input:
+      - '1934'
+    Output:
+      - 'Giap Tuat'
+  test2:
+    Input:
+      - '637'
+    Output:
+      - 'Dinh Dau'
+  test3:
+    Input:
+      - '6'
+    Output:
+      - 'Binh Dan'
+  test2:
+    Input:
+      - '13212'
+    Output:
+      - 'Nham Than'
+  test3:
+    Input:
+      - '1000000'
+    Output:
+      - 'Canh Ty'
+
