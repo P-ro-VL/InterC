@@ -3,28 +3,32 @@ Name: 'Hoán vị mảng số'
 Difficulty: 6
 Subject: 'Cơ sở lập trình'
 TimeLimit: 1.0
-Description: - 'Cho một mảng số nguyên gồm n (2 <= n <= 50) phần tử. Hãy in ra tất cả các cách sắp xếp hoán vị của mảng số này.'
-Input: - 'Dòng đầu tiên là một số nguyên dương n duy nhất - số phần tử của mảng'
+Description:
+  - 'Cho một mảng số nguyên gồm n (2 <= n <= 50) phần tử. Hãy in ra tất cả các cách sắp xếp hoán vị của mảng số này.'
+Input:
+  - 'Dòng đầu tiên là một số nguyên dương n duy nhất - số phần tử của mảng'
   - 'Dòng tiếp theo là n số nguyên mỗi số cách nhau một dấu cách - các phần tử của mảng'
-Output: - 'Các dòng. Mỗi dòng là một hoán vị của mảng số đã nhập, mỗi phần tử cách nhau một dấu cách.'
+Output:
+  - 'Các dòng. Mỗi dòng là một hoán vị của mảng số đã nhập, mỗi phần tử cách nhau một dấu cách.'
 ExampleTest:
-  Input: 
+  Input:
     - '3'
     - '1 2 3'
-  Output: 
+  Output:
     - '2 1 3'
     - '2 3 1'
     - '3 2 1'
     - '3 1 2'
     - '1 3 2'
     - '1 2 3'
-Note: - 'Không có giải thích gì thêm'
+Note:
+  - 'Không có giải thích gì thêm'
 Tests:
   test0:
-    Input: 
+    Input:
       - '21'
       - '3 1 6 3 7 2 0 0 7 4 3 0 7 5 9 1 2 2 1 4 2'
-    Output: 
+    Output:
       - '1 3 6 3 7 2 0 0 7 4 3 0 7 5 9 1 2 2 1 4 2'
       - '1 6 3 3 7 2 0 0 7 4 3 0 7 5 9 1 2 2 1 4 2'
       - '1 6 3 3 7 2 0 0 7 4 3 0 7 5 9 1 2 2 1 4 2'
@@ -446,10 +450,10 @@ Tests:
       - '3 1 6 3 7 2 0 0 7 4 3 0 7 5 9 1 2 2 1 2 4'
       - '3 1 6 3 7 2 0 0 7 4 3 0 7 5 9 1 2 2 1 4 2'
   test1:
-    Input: 
+    Input:
       - '3'
       - '0 1 3'
-    Output: 
+    Output:
       - '1 0 3'
       - '1 3 0'
       - '3 1 0'
@@ -457,10 +461,10 @@ Tests:
       - '0 3 1'
       - '0 1 3'
   test2:
-    Input: 
+    Input:
       - '14'
       - '5 3 5 2 8 8 9 1 1 7 6 8 7 6'
-    Output: 
+    Output:
       - '3 5 5 2 8 8 9 1 1 7 6 8 7 6'
       - '3 5 2 5 8 8 9 1 1 7 6 8 7 6'
       - '3 5 2 8 5 8 9 1 1 7 6 8 7 6'
